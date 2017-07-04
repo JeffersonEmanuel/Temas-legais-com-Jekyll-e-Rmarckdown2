@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Temas legais com Jekyll e Rmarckdown</title>
+    <title>Temas legais com Jekyll e Rmarkdown</title>
     <description>Tutorial para axuliar a modificar o site alterando sua estrutura e adicionando estilos de sua preferencia a sua página.</description>
-    <link>https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//</link>
-    <atom:link href="https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Jul 2017 12:51:53 -0300</pubDate>
-    <lastBuildDate>Tue, 04 Jul 2017 12:51:53 -0300</lastBuildDate>
+    <link>https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarkdown//</link>
+    <atom:link href="https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarkdown//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 04 Jul 2017 13:23:52 -0300</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2017 13:23:52 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>Temas-legais-com-Jekyll-e-Rmarckdown</title>
+        <title>Temas-legais-com-Jekyll-e-Rmarkdown</title>
         <description>&lt;p&gt;O Jekyll possui um extenso sistema temático que permite alavancar diversos modelos e estilos disponibilizados e mantidos pela comunidade para personalizar a apresentação do seu site.&lt;/p&gt;
 
 &lt;p&gt;Alguns desses temas podem ser encontrados nos sites:&lt;/p&gt;
@@ -76,23 +76,23 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;No diretório com os arquivos extraidos faça uma cópia dos diretórios &lt;em&gt;_includes&lt;/em&gt;, &lt;em&gt;_layouts&lt;/em&gt;, &lt;em&gt;_sass&lt;/em&gt;, &lt;em&gt;assets&lt;/em&gt; e &lt;em&gt;css&lt;/em&gt;  que são disponibilizados;&lt;/p&gt;
+    &lt;p&gt;No diretório com os arquivos extraídos faça uma cópia dos diretórios &lt;em&gt;_includes&lt;/em&gt;, &lt;em&gt;_layouts&lt;/em&gt;, &lt;em&gt;_sass&lt;/em&gt;, &lt;em&gt;assets&lt;/em&gt; e &lt;em&gt;css&lt;/em&gt;  que são disponibilizados;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Acesse o diretório raiz do seu projeto (Primeiro Site) e cole/substitua os diretórios;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Abra o seu projeto Rmarckdown + Jekyll e execulte-o utilizando os comandos: &lt;em&gt;brocks::blog_gen()&lt;/em&gt; e  &lt;em&gt;brocks::blog_serve()&lt;/em&gt;.&lt;/p&gt;
+    &lt;p&gt;Abra o seu projeto Rmarkdown + Jekyll e execute-o utilizando os comandos: &lt;em&gt;brocks::blog_gen()&lt;/em&gt; e  &lt;em&gt;brocks::blog_serve()&lt;/em&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Ao execultar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.&lt;/p&gt;
+&lt;p&gt;Ao executar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://s15.postimg.org/3ycrligyz/aparencianova.png&quot; alt=&quot;Site com tema alterado&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s12.postimg.org/hmzir4ikt/aparencianova.png&quot; alt=&quot;Site com tema alterado&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Jul 2017 09:51:51 -0300</pubDate>
-        <link>https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//2017/07/04/Temas-legais-com-Jekyll-e-Rmarckdown.html</link>
-        <guid isPermaLink="true">https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//2017/07/04/Temas-legais-com-Jekyll-e-Rmarckdown.html</guid>
+        <pubDate>Tue, 04 Jul 2017 10:23:50 -0300</pubDate>
+        <link>https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarkdown//2017/07/04/Temas-legais-com-Jekyll-e-Rmarkdown.html</link>
+        <guid isPermaLink="true">https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarkdown//2017/07/04/Temas-legais-com-Jekyll-e-Rmarkdown.html</guid>
         
         <category>htmlwidgets</category>
         

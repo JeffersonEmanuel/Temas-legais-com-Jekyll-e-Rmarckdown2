@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Temas-legais-com-Jekyll-e-Rmarckdown
-date: 2017-07-04 12:51:51
+title:  Temas-legais-com-Jekyll-e-Rmarkdown
+date: 2017-07-04 13:23:50
 published: true
 tags: [htmlwidgets, r]
 ---
@@ -51,10 +51,6 @@ E terá a estrutura:
 
 ![Extrutura Inicial - retirada do tutorial: Jekyll Primeira Postagem](https://s7.postimg.org/kbg69glxn/estruturabase.png)
 
-
-
-
-
 Os diretórios: *_includes*, *_layouts*, *_sass*, *assets* e o *css*, são os diretórios utilizados para definir o tema do seu site. Para modificar primeiro você deve fazer o download de um dos temas disponibilizados nos sites apresentados no início deste tutorial. Para este exemplo vamos utilizar o tema [jekyll-theme-libretto](http://jekyllthemes.org/themes/jekyll-theme-libretto/) disponibilizado no site [http://jekyllthemes.org/](http://jekyllthemes.org/).
 
 
@@ -66,15 +62,15 @@ Após fazer o download de tema você deve seguir os seguintes passos:
 
 ![Estrutura Libretto](https://s24.postimg.org/luo0fbdbp/estruturalibretto.png)
 
-* No diretório com os arquivos extraidos faça uma cópia dos diretórios *_includes*, *_layouts*, *_sass*, *assets* e *css*  que são disponibilizados;
+* No diretório com os arquivos extraídos faça uma cópia dos diretórios *_includes*, *_layouts*, *_sass*, *assets* e *css*  que são disponibilizados;
 
 
 * Acesse o diretório raiz do seu projeto (Primeiro Site) e cole/substitua os diretórios;
 
 
-* Abra o seu projeto Rmarckdown + Jekyll e execulte-o utilizando os comandos: *brocks::blog_gen()* e  *brocks::blog_serve()*. 
+* Abra o seu projeto Rmarkdown + Jekyll e execute-o utilizando os comandos: *brocks::blog_gen()* e  *brocks::blog_serve()*. 
 
 
-Ao execultar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.
+Ao executar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.
 
-![Site com tema alterado](https://s15.postimg.org/3ycrligyz/aparencianova.png)
+![Site com tema alterado](https://s12.postimg.org/hmzir4ikt/aparencianova.png)

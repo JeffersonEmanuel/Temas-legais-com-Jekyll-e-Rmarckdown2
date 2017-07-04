@@ -99,4 +99,4 @@ Após fazer o download de tema você deve seguir os seguintes passos:
 
 Ao executar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.
 
-![Site com tema alterado](https://s15.postimg.org/3ycrligyz/aparencianova.png)
+![Site com tema alterado](https://s12.postimg.org/hmzir4ikt/aparencianova.png)
