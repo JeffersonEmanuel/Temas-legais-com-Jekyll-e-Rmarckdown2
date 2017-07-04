@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#943526">
+
+	
+	<meta property="og:image" content="https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//thumbnail.jpg">
+	
+
+	
+	<meta property="og:title" content="Temas legais com Jekyll e Rmarckdown • Temas-legais-com-Jekyll-e-Rmarckdown">
+	
+
+	<link rel="icon" href="/favicon.png" type="image/png">
+
+	<title>Temas-legais-com-Jekyll-e-Rmarckdown</title>
+	<meta name="description" content="O Jekyll possui um extenso sistema temático que permite alavancar diversos modelos e estilos disponibilizados e mantidos pela comunidade para personalizar a ...">
+
+	<link rel='stylesheet' id='libretto-fonts-css'  href='https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C700%2C400italic%7CPlayfair+Display%3A400%2C700%2C400italic%2C700italic%7CPlayfair+Display+SC%3A700%2C700italic%7CMontserrat%3A400%7CDroid+Sans+Mono%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all'>
+
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//2017/07/04/Temas-legais-com-Jekyll-e-Rmarckdown.html">
+	<link rel="alternate" type="application/rss+xml" title="Temas legais com Jekyll e Rmarckdown" href="https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarckdown//feed.xml">
+</head>
+
+
+<body>
+
+	<header class="site-header">
+
+	<div class="wrapper">
+
+		<a class="site-title" href="/">Temas legais com Jekyll e Rmarckdown</a>
+
+	</div>
+
+</header>
+
+
+	<div class="page-content">
+		<div class="wrapper">
+			<header class="post-header">
+	<div>
+		<span>Posted on </span><span class="post-meta">July 4, 2017</span>
+	</div>
+
+	<h1 class="post-title" itemprop="name headline">Temas-legais-com-Jekyll-e-Rmarckdown</h1>
+</header>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="entry-content" itemprop="articleBody">
+		<p>O Jekyll possui um extenso sistema temático que permite alavancar diversos modelos e estilos disponibilizados e mantidos pela comunidade para personalizar a apresentação do seu site.</p>
+
+<p>Alguns desses temas podem ser encontrados nos sites:</p>
+
+<ul>
+  <li><a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a></li>
+  <li><a href="https://jekyllthemes.io/">https://jekyllthemes.io/</a></li>
+  <li><a href="https://github.com/jekyll/jekyll/wiki/Themes">https://github.com/jekyll/jekyll/wiki/Themes</a></li>
+  <li><a href="https://mademistakes.com/work/jekyll-themes/">https://mademistakes.com/work/jekyll-themes/</a></li>
+</ul>
+
+<p>O Jekyll possui um extenso sistema de temas que permite alavancar modelos e estilos. Os formulários organizam os layouts, includes e stylesheets de uma forma que podem ser substituídos pelo conteúdo desejado, para personalizar a apresentação do seu site. Nesse tutorial, começaremos com algumas dicas básicas, passando pelos temas, familiarizando-se com os diretórios/arquivos, e por fim mostraremos como alterar o tema de um site existente.</p>
+
+<p>Antes de começarmos a modificar o site vamos conhecer a estrutura básica do site:</p>
+
+<ul>
+  <li><strong>Layouts</strong>
+    <ul>
+      <li>Refere-se a arquivos dentro do diretorio <em>_layouts</em>, estes definem a marcacao para o seu tema.</li>
+    </ul>
+  </li>
+  <li><strong>Includes</strong>
+    <ul>
+      <li>Refere-se ao código dentro do diretório <em>_includes</em> que pode ser utilizado em vários layouts.</li>
+    </ul>
+  </li>
+  <li><strong>Sass</strong>
+    <ul>
+      <li>Refere-se aos arquivos <em>.scss</em> no diretório <em>_sass</em> que define os estilos do tema.</li>
+    </ul>
+  </li>
+  <li><strong>Assets</strong>
+    <ul>
+      <li>
+        <p>Refere-se a vários arquivos <em>assets</em> dentro do diretório. Contém o main.scss que importa arquivos <em>sass</em> dentro do diretório <em>_sass</em>. Iste <em>main.scss</em> é o processado na folha de estilo principal do tema <em>main.css</em> chamado <em>_layouts/default.html</em> via o <em>_includes/head.html</em>.</p>
+      </li>
+      <li>
+        <p>Este diretório pode incluir subdiretórios para gerenciar recursos de tipo similar, e será copiado como está, para o diretório de site que sofrerá a tranformação final.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Para alterar o tema do projeto, vamos utilizar o projeto do primeiro tutorial, <a href="https://arthurlustosa.github.io/maisumsitesobre/">Jekyll Primeira Postagem</a>. Após ter criado seu site utilizando o tutorial ele terá aseguinte aparência:</p>
+
+<p><img src="https://s11.postimg.org/cnc81725f/aparenciabase.png" alt="Aparência Inicial" /></p>
+
+<p>E terá a estrutura:</p>
+
+<p><img src="https://s7.postimg.org/kbg69glxn/estruturabase.png" alt="Extrutura Inicial - retirada do tutorial: Jekyll Primeira Postagem" /></p>
+
+<p>Os diretórios: <em>_includes</em>, <em>_layouts</em>, <em>_sass</em>, <em>assets</em> e o <em>css</em>, são os diretórios utilizados para definir o tema do seu site. Para modificar primeiro você deve fazer o download de um dos temas disponibilizados nos sites apresentados no início deste tutorial. Para este exemplo vamos utilizar o tema <a href="http://jekyllthemes.org/themes/jekyll-theme-libretto/">jekyll-theme-libretto</a> disponibilizado no site <a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a>.</p>
+
+<p><img src="https://s9.postimg.org/e4dgu9oi7/libretto.png" alt="Tema Libretto" /></p>
+
+<p>Após fazer o download de tema você deve seguir os seguintes passos:</p>
+
+<ul>
+  <li>Extraia os arquivos dentro do .zip baixado. O tema libretto tem a seguinte estrutura:</li>
+</ul>
+
+<p><img src="https://s24.postimg.org/luo0fbdbp/estruturalibretto.png" alt="Estrutura Libretto" /></p>
+
+<ul>
+  <li>
+    <p>No diretório com os arquivos extraidos faça uma cópia dos diretórios <em>_includes</em>, <em>_layouts</em>, <em>_sass</em>, <em>assets</em> e <em>css</em>  que são disponibilizados;</p>
+  </li>
+  <li>
+    <p>Acesse o diretório raiz do seu projeto (Primeiro Site) e cole/substitua os diretórios;</p>
+  </li>
+  <li>
+    <p>Abra o seu projeto Rmarckdown + Jekyll e execulte-o utilizando os comandos: <em>brocks::blog_gen()</em> e  <em>brocks::blog_serve()</em>.</p>
+  </li>
+</ul>
+
+<p>Ao execultar o projeto se tudo ocorreu corretamente o site deverá ter o novo tema.</p>
+
+<p><img src="https://s15.postimg.org/3ycrligyz/aparencianova.png" alt="Site com tema alterado" /></p>
+
+	</div>
+</article>
+
+<div id="post-nav">
+	<div class="next">
+		
+	</div>
+
+	<div class="previous">
+		
+	</div>
+</div>
+
+		</div>
+	</div>
+
+	<footer class="site-footer">
+
+	<div class="wrapper">
+
+		<h2 class="footer-heading">Temas legais com Jekyll e Rmarckdown • <a href="/table-of-contents">Table of Contents</a></h2>
+
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li>Temas legais com Jekyll e Rmarckdown</li>
+					<li><a href="mailto:jefferson.ecs@gmail.com">jefferson.ecs@gmail.com</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-2">
+				<ul class="social-media-list">
+					
+
+					
+
+					
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-3">
+				<p>Tutorial para axuliar a modificar o site alterando sua estrutura e adicionando estilos de sua preferencia a sua página.</p>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
+
+
+</body>
+
+</html>
