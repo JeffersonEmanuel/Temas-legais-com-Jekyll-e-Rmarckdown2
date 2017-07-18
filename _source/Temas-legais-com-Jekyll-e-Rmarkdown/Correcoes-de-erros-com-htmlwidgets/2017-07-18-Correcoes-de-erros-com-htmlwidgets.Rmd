@@ -1,0 +1,64 @@
+---
+layout: post
+title:  Correcoes-de-erros-com-htmlwidgets
+date: `r Sys.time()`
+published: true
+tags: [htmlwidgets, r]
+---
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#### definindo local do projeto windows
+#setwd("C:/Users/jeffe/workspace/Temas-legais-com-Jekyll-e-Rmarkdown")
+
+#### definindo local do projeto linux
+#setwd("~/Projeto Git/Temas-legais-com-Jekyll-e-Rmarkdown")
+
+#### Conpilando o codigo
+#brocks::blog_gen()
+
+#### Execultando o servidor
+#brocks::blog_serve()
+
+
+
+# Carregando os pacotes
+require(ggplot2)
+require(dplyr)
+
+# Carrega arquivo
+
+
+#  Filtra media de classificassao por episodio
+
+```
+
+
+
+```{r}
+library(leaflet)
+
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng = -0.07125, lat = 51.51895, 
+             popup = "Reasonably Priced Stella Artois")
+m
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

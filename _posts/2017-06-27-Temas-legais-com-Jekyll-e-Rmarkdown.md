@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Temas-legais-com-Jekyll-e-Rmarkdown
-date: 2017-07-04 13:23:50
+date: 2017-07-18 13:39:20
 published: true
 tags: [htmlwidgets, r]
 ---
