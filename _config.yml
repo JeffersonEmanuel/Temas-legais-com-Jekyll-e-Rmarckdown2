@@ -4,6 +4,8 @@ email: jefferson.ecs@gmail.com
 description:
     Tutorial para axuliar a modificar o site alterando sua estrutura e adicionando estilos de sua preferencia a sua página.
 url: "https://jeffersonemanuel.github.io/Temas-legais-com-Jekyll-e-Rmarkdown/"
+excerpt_separator: ""  
+
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,63 @@
+---
+layout: post
+title:  Correções de erros com htmlwidgets
+date: `r Sys.time()`
+published: true
+tags: [htmlwidgets, r]
+---
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, fig.align="center", fig.cap = '', screenshot.force = FALSE)
+```
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#### definindo local do projeto windows
+#setwd("C:/Users/jeffe/workspace/Temas-legais-com-Jekyll-e-Rmarkdown")
+
+#### definindo local do projeto linux
+#setwd("~/Projeto Git/Temas-legais-com-Jekyll-e-Rmarkdown")
+
+#### Conpilando o codigo
+#brocks::blog_gen()
+
+#### Execultando o servidor
+#brocks::blog_serve()
+
+```
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+
+m <- leaflet() %>% addTiles() %>%  addMarkers(lng = -0.07125, lat = 51.51895, popup = "Reasonably Priced Stella Artois")
+m
+
+```
+
+Primeiro eu tive o seguinte erro:
+
+!['highlight' tag was never closed](https://s12.postimg.org/cs1qm015p/erro_1.png)
+
+Para corrigir, eu adicionei dentro do _config.yml a seguinte linha: **excerpt_separator: ""** 
+
+Fazendo a correções acima o código execultor, mas o gráfico não apareceu. Ficou o seguinte erro:
+
+![Erro ao apresentar o gráfico](https://s18.postimg.org/sghvs4tyx/erro_ao_apresentar_o_gr_fico.png)
+
+Para corrigir este erro, primeiro adicionei as [dependencias]() no diretório raiz do projeto e o check no projeto .rmd: 
+
+![](https://s17.postimg.org/z1us2nupb/check.png)
+
+No diretório _includs criei um diretório chamado **htmlwidgets** e adicionei os .html dos posts lá dentro.
+
+
+
+
+
+
+
+
+
+

@@ -12,12 +12,12 @@
 	
 
 	
-	<meta property="og:title" content="Temas legais com Jekyll e Rmarkdown • Correcoes-de-erros-com-htmlwidgets">
+	<meta property="og:title" content="Temas legais com Jekyll e Rmarkdown • Correções de erros com htmlwidgets">
 	
 
 	<link rel="icon" href="/favicon.png" type="image/png">
 
-	<title>Correcoes-de-erros-com-htmlwidgets</title>
+	<title>Correções de erros com htmlwidgets</title>
 	<meta name="description" content="">
 
 	<link rel='stylesheet' id='libretto-fonts-css'  href='https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C700%2C400italic%7CPlayfair+Display%3A400%2C700%2C400italic%2C700italic%7CPlayfair+Display+SC%3A700%2C700italic%7CMontserrat%3A400%7CDroid+Sans+Mono%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all'>
@@ -48,30 +48,37 @@
 		<span>Posted on </span><span class="post-meta">July 18, 2017</span>
 	</div>
 
-	<h1 class="post-title" itemprop="name headline">Correcoes-de-erros-com-htmlwidgets</h1>
+	<h1 class="post-title" itemprop="name headline">Correções de erros com htmlwidgets</h1>
 </header>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="entry-content" itemprop="articleBody">
-		
+		<!--html_preserve-->
+<div id="htmlwidget-66ee90ab1c402d7c0783" style="width:504px;height:504px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-66ee90ab1c402d7c0783">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[51.51895,-0.07125,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Reasonably Priced Stella Artois",null,null,null,null,null,null]}],"limits":{"lat":[51.51895,51.51895],"lng":[-0.07125,-0.07125]}},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
+
+<p>Primeiro eu tive o seguinte erro:</p>
+
+<p><img src="https://s12.postimg.org/cs1qm015p/erro_1.png" alt="'highlight' tag was never closed" /></p>
+
+<p>Para corrigir, eu adicionei dentro do _config.yml a seguinte linha: <strong>excerpt_separator: ““</strong></p>
+
+<p>Fazendo a correções acima o código execultor, mas o gráfico não apareceu. Ficou o seguinte erro:</p>
+
+<p><img src="https://s18.postimg.org/sghvs4tyx/erro_ao_apresentar_o_gr_fico.png" alt="Erro ao apresentar o gráfico" /></p>
+
+<p>Para corrigir este erro, primeiro adicionei as <a href="">dependencias</a> no diretório raiz do projeto e o check no projeto .rmd:</p>
+
+<p><img src="https://s17.postimg.org/z1us2nupb/check.png" alt="" /></p>
+
+<p>No diretório _includs criei um diretório chamado <strong>htmlwidgets</strong> e adicionei os .html dos posts lá dentro.</p>
+
 
 	</div>
 </article>
 
-<div id="post-nav">
-	<div class="next">
-		
-	</div>
 
-	<div class="previous">
-		
-		<a href="/2017/07/18/Temas-legais-com-Jekyll-e-Rmarkdown.html">
-			<span>Previous entry</span>
-			Temas-legais-com-Jekyll-e-Rmarkdown
-		</a>
-		
-	</div>
-</div>
 
 		</div>
 	</div>
